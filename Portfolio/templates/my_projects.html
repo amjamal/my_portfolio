@@ -1,0 +1,81 @@
+{% extends 'index.html' %}
+{% load static %}
+<head>
+    <title> {% block title %} My Projects {% endblock %}</title>
+</head>
+
+{% block content %}
+<body style="background-color: rgb(57, 57, 50);">
+<div class="container" style="margin-top: 5rem;">
+    <div class="row">
+        <div class="col-6">
+            <div class="shadow card" style="width: 28rem;
+            border-radius: 20px; background-color: transparent;">
+                <img src="{% static 'img/ecom.png' %}" class="card-img-top" alt="E-com" 
+                style="height: 18rem; border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                <div class="card-body" style="background-color: rgb(234, 159, 159); height: auto;
+                border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;">
+                <h5 class="card-title">E-commerce Website</h5>
+                <p class="card-text" style="color: black">The website is a shopping website for various
+                    categories of products. User can login, search products and
+                    add the products to the cart.</p>
+                    <button id="btn_project" onclick="window.location.href='https://amaljoy03.pythonanywhere.com/'">E-com</button> 
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="card" style="width: 28rem;
+            border-radius: 20px; background-color: transparent;">
+                <img src="{% static 'img/used_car.png' %}" class="card-img-top" alt="E-com" 
+                style="height: 18rem; border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                <div class="card-body" style="background-color: rgb(234, 159, 159); height: auto;
+                border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;">
+                <h5 class="card-title">Used Cars Website</h5>
+                <p class="card-text" style="color: black">The website contains list of cars available with 
+                    car dealer for sale,categorised according to the models,
+                     users can book a test drive from the website.</p>
+                    <button id="btn_project" onclick="window.location.href='https://amaljoy05.pythonanywhere.com/'">UsedCars</button>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+    <br><br>
+
+    <div class="row">
+        <div class="col-6">
+            <div class="card" style="width: 28rem;
+            border-radius: 20px; background-color: transparent;">
+                <img src="{% static 'img/restro.jpg' %}" class="card-img-top" alt="E-com" 
+                style="height: 18rem; border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                <div class="card-body" style="background-color: rgb(234, 159, 159); height: auto;
+                border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;">
+                <h5 class="card-title">Restaurant website</h5>
+                <p class="card-text" style="color: black">The website is for restaurants to showcase
+                     their Menu to the customers and make prior reservations.</p>
+                    <button id="btn_project" onclick="window.location.href='https://amaljoy01.pythonanywhere.com/'">Savory</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="card" style="width: 28rem;
+            border-radius: 20px; background-color: transparent;">
+                <img src="{% static 'img/movie.png' %}" class="card-img-top" alt="E-com" 
+                style="height: 18rem; border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                <div class="card-body" style="background-color: rgb(234, 159, 159); height: auto;
+                border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;">
+                <h5 class="card-title">Movie Website</h5>
+                <p class="card-text" style="color: black">The website contains movie lists with details.
+                    Movies can be added, edited and deleted.</p>
+                    <button id="btn_project" onclick="window.location.href='https://amjamal.pythonanywhere.com/'">Movie</button>
+                </div>
+            </div>
+    </div>
+
+</div>
+</body>
+<br><br>
+{% endblock %}

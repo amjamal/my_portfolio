@@ -1,0 +1,23 @@
+{% extends 'index.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} Amal's portfolio {% endblock %}</title>
+</head>
+{% block content %}
+<body style="background-color: black;">
+<div id="bg" style="background-image: url('{% static 'img/amal2.jpg' %}');">
+    <form action="about">
+    <div class="container" style="padding-top: 10rem;">
+    <h1 style="font-weight:bold; font-size:3rem; text-align:left; padding-top:20px; padding-left: 3rem;">Amal Joy</h1><br>
+    <pre style="color:white; text-align:left; font-size:2rem; padding-left: 1rem;">Python Developer</pre><br><br>
+    <button id="btns"> A little about me</button>
+    </div>
+    </form>
+</div>
+</div>
+</body>
+{% endblock %}
+</html>

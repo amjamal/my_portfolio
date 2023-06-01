@@ -1,0 +1,41 @@
+{% extends 'index.html' %}
+{% load static %}
+
+{% block title %} About me {% endblock %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/custom.css' %}">
+
+{% block content %}
+<body style="background-color: beige;">
+
+<div class="container">
+    <div class="row">
+        <div class="col" >
+            <h1 style="text-align: center; padding-top: 5rem; font-weight: bold; color:black">Amal Joy</h1><br>
+            <h4 style="color:black;">I am a Full Stack Python Developer with a B.Tech degree on Mechanical Engineering.</h4>
+            <h4 style="color:black;">Completed 3-month internship as Python Developer at Inmakes Infotech</h4><br>
+            
+        </div>
+    </div><br><br>
+    <div class="row">
+        <div class="col">
+            <h2 style="color:black;"><u>Education</u></h2>
+            <h4 style="color:black;">B.Tech Mechanical Engineering (2019)</h4>
+            <h4 style="color:black;">61%</h4>
+            <h4 style="color:black;">University of Kerala</h4>
+        </div>
+        <div class="col">
+            <h2 style="color:black;"><u>Experience</u></h2>
+            <h4 style="color:black;">Python Developer Intern</h4>
+            <h4 style="color:black;">Inmakes Infotech</h4>
+            <h4 style="color:black;">December 2022 - March 2023</h4>
+        </div>
+    </div><br><br>
+</div>
+<form action="{% url 'portfolio:projects' %}">
+<div style="text-align: center;">
+    <button type="submit" id="btn_about">PROJECTS</button>
+</div>
+</form>
+<br>
+</body>
+{% endblock %}

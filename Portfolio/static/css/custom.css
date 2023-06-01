@@ -1,0 +1,81 @@
+#bg {
+    background-repeat: no-repeat;
+    background-position:top right;
+    background-size:auto;
+    background-attachment: scroll;
+    margin-top: 20px;
+    height: 570px;
+    
+}
+
+#btns {
+    margin-left: 3rem; 
+    background-color: rgb(73, 17, 38); 
+    color: black;
+    border-radius: 20px;
+    height: 3rem;
+    width: 11rem;
+    font-weight: bold;
+    font-size: larger;
+    border-color: rgb(192, 165, 30);
+    
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+#btn_about {
+    background-color: rgb(142, 116, 124);
+    height: 3rem; 
+    width: 8rem; 
+    font-weight: bold; 
+    font-size: larger;
+    border-radius: 20px;
+    border-color: rgb(192, 165, 30);
+}
+
+#btn_project {
+    background-color: rgb(73, 17, 38);
+    height: 3rem; 
+    width: 10rem; 
+    font-weight: bold; 
+    font-size: larger;
+    border-radius: 20px;
+    border-color: rgb(192, 165, 30);
+    margin-left: 7rem;
+    
+}
+
+#btns:hover {
+    background-color: yellow;
+}
+
+#btn_about:hover {
+    background-color: yellow;
+}
+
+#btn_project:hover {
+    background-color: yellow;
+}
+
+.navbar a:hover {
+    background-color: black;
+    color: yellow;
+}
+#navbarNav a:hover {
+    background-color:black;
+    color:yellow;
+}
+
+.col a:hover {
+    color: yellow;
+}
+
+  
